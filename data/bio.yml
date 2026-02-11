@@ -1,0 +1,476 @@
+- title: Miscellaneous
+  items:
+    - header: November 25th, 1975 - Present
+      title: Married, 4 children
+      content: |
+        * Nationality: Belgian
+        * Languages: French (mother tongue), English (B2), Dutch (A2)
+        * Driving licence: B
+        * Hobbies: 💿 rock music 🎸, reading 📚, running 🏃, skiing ⛷️, walking 🚶, sleeping 😴, computing 🤓, gardening 🌱
+        * Contact: you will find a way ⚙️ ... ⏳ ... 💡 !
+
+- title: Experience
+  items:
+    - logo:
+        link: https://blacksheep-tribes.eu/en/
+        label: Blacksheep Tribes
+        imageUrl: logos/blacksheep-tribes.png
+      header: May 2023 - Present
+      title: IT consultant & Java architect
+      collapsible: false
+      ruler: true
+      content: |
+        *Blacksheep Tribes Group - Gembloux - full-time - remote*
+        
+        I joined the Blacksheep Tribes group in the Oniryx company. It is driven by _self-management_ governance, and require non trivial involvement from its consultants.
+        I couldn't allocate time for that, so in July 2024 I moved to its sister company, i'Groove, governed by _participative management_. This is more in line with
+        my "father of 4" kind of life.
+      subItems:
+        - logo:
+            link: https://i-groove.be/
+            label: igroove
+            imageUrl: logos/i-groove-dark.svg
+          header: July 2024 - Present
+          title: IT consultant & Java architect
+          collapsible: true
+          collapsed: false
+          ruler: true
+          content: |
+            *igroove - Gembloux - full-time - remote*
+
+          subItems:
+            - logo:
+                link: https://finances.belgium.be/fr
+                label: SPF Finances
+                imageUrl: logos/SPF_Finances_logo_fr.png
+              header: August 2023 - Present
+              title: Technical architect
+              collapsible: true
+              collapsed: false
+              content: |
+                *FOD Financiën / SPF Finances - Brussels - full-time - hybrid*
+                
+                The Biztax application is responsible for the taxation of companies in Belgium.
+                The "Biztax 2" project is a complete rewrite of the current application.
+                The main goals of the project are:
+                * technology upgrade (from JEE & Struts on WebLogic 10 to Spring Boot on Red Hat OpenShift)
+                * existing business features enhancement
+                * better separation of concerns between the core business logic and the various outside world interactions. The code is designed around the hexagonal/ports & adapters architecture paradigm.
+                
+                I am in charge of defining the « to be » architecture, defining its building blocks and leading the technical implementation.
+          
+                I was also involved in the Belgian implementation of the 
+                <a href="https://www.oecd.org/en/topics/sub-issues/global-minimum-tax/global-anti-base-erosion-model-rules-pillar-two.html" target="_blank">Pillar 2 OECD</a> 
+                set of regulations.        
+        
+                **Technologies & skills:** English, hexagonal architecture, WebLogic, refactoring, agile development, coaching,
+                Spring Boot, Java, ArchUnit, Apache Artemis, GitLab CI/CD, Argo CD, IBM Instana, Red Hat OpenShift
+
+        - logo:
+            link: https://oniryx.be/
+            label: Oniryx
+            imageUrl: logos/ONIRYX-dark-sans-baseline.svg
+          header: May 2023 - June 2024 (1 year, 2 months)
+          title: IT consultant & Java architect
+          collapsible: true
+          collapsed: false
+          ruler: false
+          content: |
+            *Oniryx - Gembloux - full-time - remote*
+            
+            In addition to my main consulting mission at SPF Finances (see above), I have also been involved in responding to calls for tenders, and by developing an internal web service for enriching consultants profile with the help of Artifical Intelligence.
+            
+            **Technologies & skills**: English, Spring Boot, refactoring, Java, architecture, agile development.
+
+    - logo:
+        link: https://www.emasphere.com/
+        label: EMAsphere
+        imageUrl: logos/emasphere.png
+      header: May 2019 - March 2023 (3 years, 11 months)
+      title: Software architect
+      collapsible: true
+      collapsed: false
+      ruler: true
+      content: |
+        *EMAsphere - Louvain-la-Neuve - full-time - hybrid*
+        
+        Member of the infrastructure team, I worked on various transversal & DevOps tasks:
+        * maintenance, upgrade, downstream & merging of the Aurora Postgres RDS instances (Python)
+        * upgrade technology stack (Spring Boot)
+        * containerization of the micro-services (Terragrunt, Terraform, Helm, Kubernetes)
+        * benchmarking of RabbitMQ & ActiveMQ
+        * Various AWS-related tasks (EC2, RDS, DMS, IAM, S3, CloudWatch, Amazon MQ)
+        * Setup of a new architecture for the Integration Connectors side of the EMAsphere solution
+  
+        Support to developers, mentoring, code reviews.
+        
+        **Technologies & skills:** DevOps, English, Spring Boot, Spring Cloud, RabbitMQ, JMS, Kubernetes, Databases, REST API,
+        Apache Camel, Linux, Elasticsearch, Vert.x, refactoring, Amazon Web Services, Jenkins, Maven, Github, Scrum, agile development
+
+    - logo:
+        link: https://www.proxistore.com/
+        label: Proxistore
+        imageUrl: logos/PXS-logo.svg
+      header: September 2016 - April 2019 (2 years, 8 months)
+      title: Technical team leader & architect
+      collapsible: true
+      ruler: true
+      content: |
+        *Proxistore - Mont-Saint-Guibert - full-time - on-site*
+        
+        Proxistore is a company that provide a platform for managing online advertisement campaigns, based on a patented geolocation technology.
+        I have worked on two major roles:
+      subItems:
+        - header: September 2018 - April 2019 (8 months)
+          title: Technical team leader & architect
+          collapsible: true
+          content: |
+            Main focus moved from development to operations, and from team member to team leader.
+            
+            **Technologies & skills:** English, Spring Boot, RabbitMQ, Elasticsearch, refactoring, Amazon Web Services, Tomcat, Maven, Git
+    
+        - header: September 2016 - August 2018 (2 years)
+          title: Senior Java developer
+          collapsible: true
+          content: |
+            Diving into Elasticsearch, RabbitMQ, Redis & Vert.x to set up the next generation platform, 
+            with a little help from my friends: Spring Boot, Spring Integration, Docker, AWS, Ansible.
+            
+            I also implemented the buyer side of the OpenRTB 2.5 specifications.
+            
+            **Technologies & skills:** English, Spring Boot, REST API, Linux, Junit, RabbitMQ, Elasticsearch, refactoring, Amazon Web Services, Tomcat, Maven, Git
+    
+    - logo:
+        link: https://trends.levif.be/a-la-une/tech/take-eat-easy-cest-fini/
+        label: Take Eat Easy
+        imageUrl: logos/TakeEatEasy.png
+      header: October 2015 - July 2016 (10 months)
+      title: Senior Software Developer
+      collapsible: true
+      ruler: true
+      content: |
+        *Take Eat Easy - Brussels - full-time - hybrid*
+        
+        Member of the consumer team, whose role was maintaining & frequently improving the public website, iOS & Android applications.
+        My main focus was the backend development of the ordering website, and enriching our REST API for the mobile applications.
+        We mainly used Spring Boot, Spring Cloud Config & Netflix, Redis cache, Jackson, TestNG, Maven, Jenkins, GitHub, MySQL, Liquibase & AWS.
+        
+        **Technologies & skills:** English, Spring Boot, TestNG, Databases, REST API, refactoring, Amazon Web Services, Jenkins, Tomcat, Maven, Github, Scrum, Hibernate, Web Applications
+
+    - logo:
+        link: https://www.rtbf.be/
+        label: RTBF
+        imageUrl: logos/RTBF.be_2010.svg
+      header: January 2010 - September 2015 (5 years, 9 months)
+      title: External IT Consultant
+      collapsible: true
+      ruler: true
+      content: |
+        *R.T.B.F. - Brussels - full-time - on-site*
+        
+        I have worked on several projects:
+      subItems:
+       - header: Project "REPTEL"
+         title: Senior Java developer
+         collapsible: true
+         collapsed: true
+         content: |
+          Project *REPTEL* was an application aimed to ease the consulting of shared contacts for all 
+           journalists at RTBF, through their mobile phone.
+          
+          I wrote the backend with Spring Data JPA & Hibernate. It was exposed via a REST interface 
+           with Spring MVC & Jackson, and secured with Spring Security. All powered by Spring Boot.
+          
+          I also wrote the first draft of the HTML5 / AngularJS interface, as well as the Javascript stubs for Ajax calls.
+          
+          **Technologies involved**: Spring Framework / Data JPA / HATEOAS, JMS, Hibernate, Linux, 
+           JUnit, Tomcat, Maven, Web Applications, Quartz Scheduler, Oracle database, AngularJS
+
+       - header: Project "Radio On Demand (ROD)"
+         title: Flex developer
+         collapsible: true
+         collapsed: true
+         content: |        
+          Project *ROD* was an automating tool to extract, compress and publish shows broadcasted on 
+          the RTBF radio channels. They were then made available through the public web site.      
+        
+          I developed the backend with the usual suspects: Spring (Core, Integration, WS, Security) & Hibernate.
+        
+          Tools also used through web services: Arbor Media, Rhozet Carbon Coder.
+        
+          **Technologies involved**: Spring Framework, JMS, Hibernate, Linux, JUnit, Tomcat, Maven, 
+           Web Applications, Quartz Scheduler, Oracle database
+
+       - header: Project "Intranet de Production"
+         title: Senior Java / Flex developer
+         collapsible: true
+         collapsed: true
+         content: |
+          Project *Intranet de Production* was a SOA-based system, developed in-house, aimed to connect v
+           arious software used in TV productions: Dalet, EVS, ...
+          It offered a wide view of various steps/aspects of the production of videos assets to be 
+           broadcasted in the news reports or in TV shows.
+          
+          My role was to develop/improve some frontend and backend softwares to be integrated in 
+           the dashboard application.
+          A few screen I worked on: P2 footages ingest, human resources and material planning for 
+           productions, editorial double-checking (before broadcasting).
+          I also took care of upgrading an old Hudson server to a brand new Jenkins instance.
+           
+          **Technologies involved**: Flex/ActionScript 3, FlexMojos 3.6+, Spring BlazeDS Integration, 
+           Dozer, Spring Core / Security / JMS / MVC / OXM / Integration / JDBC,
+          Hibernate, Tomcat 6, Maven, HttpClient 4.1.2, PureMVC 2.0.4, ForkJoin framework, Mockito, 
+           Activiti BPM 5.10, Jenkins CI
+
+       - header: Project "Cockpit Radio"
+         title: Flex developer
+         collapsible: true
+         collapsed: true
+         content: |
+          Project *Cockpit Radio* was a composite application constituting a centralized console aimed 
+           to administer various aspects of the broadcasting of radio shows.
+          It was a front-end interface for various services such as:
+          * Netia message sources management (TCP/UDP)
+          * RDS encoders management
+          * On Air listening and past sounds replay
+          * automatic VOD production for the guest sequence of show "Matin Première", also broadcasted on television.
+    
+          My role was to develop the frontend interface, in Flex, and to give advices on the architectural and development tasks on the backend.
+
+       - header: Project "Perex Mobidesk"
+         title: Flex developer
+         collapsible: true
+         collapsed: true
+         content: |
+          Project *Perex Mobidesk* was a Flex client interface used by radio speakers for traffic jam announcements.
+          Original version of the application code was MXML-only based, making it very difficult to maintain and track bugs.
+          I had to re-factor it using PureMVC as the foundation framework.
+          
+          Goals: better reactivity, better memory management, separation of concerns, ...
+          
+          I also Maven-ified the build process.
+  
+          **Technologies involved**: Flex/ActionScript 3, FlexMojos 3.6+
+
+    - logo:
+        link: https://www.crunchbase.com/organization/velixis-nv
+        label: Velixis (Micropole group)
+        imageUrl: logos/velixis.jpg
+      header: December 2008 - September 2015 (6 years, 10 months)
+      title: IT Consultant
+      collapsible: true
+      collapsed: true
+      ruler: true
+      content: |
+        *Velixis - Brussels - full-time - on client site*
+
+        Working on various consulting missions (at RTBF and Sanoma Magazines) involving Flex as the 
+        application frontend and Spring & Hibernate on the backend side.
+        All powered by Maven.
+
+        A few assignments:
+          * design from scratch a new application
+          * "enterprise-ify" a proof-of-concept application
+          * improve performances and fix memory leaks in Flex and Java code
+          * write a load test client for a server application using `HttpClient`
+          * write some building blocks web services of a SOA solution
+
+        **Technologies involved**: Adobe Flex 3, FlexMojos 3.6+, Spring Framework 2.5.6, Spring Web
+        Services 1.5.6, Spring Security 2.0.4, JAXB 2,
+        Apache Maven 2.0.9, JUnit 4, SVN, HttpClient 3.1, iText 2.1.4
+
+    - logo:
+        link: https://datanews.levif.be/actualite/soa-people-met-la-main-sur-keneos/
+        label: Keneos (SOA People)
+        imageUrl: logos/keneos.jpg
+      header: September 2008 - December 2008 (3 months)
+      title: SAP NetWeaver Consultant
+      collapsible: true
+      collapsed: true
+      ruler: true
+      content: |
+        *Keneos - Wavre - full-time - on-site*
+        
+        SAP NetWeaver Portal applications maintenance at [S.T.I.B. - M.I.V.B.](https://www.stib-mivb.be/).
+
+    - logo:
+        link: https://fr.wikipedia.org/wiki/Atos#Atos_Origin_(2000-2011)
+        label: Atos Origin
+        imageUrl: logos/AtosOrigin.jpeg
+      header: August 1997 - August 2008 (11 years)
+      title: Analyst-programmer
+      collapsible: true
+      ruler: true
+      content: |
+        *Atos / Atos Origin - Waterloo & Brussels - full-time - on-site*
+        
+        I worked on several key accounts projects:
+      subItems:
+        - logo:
+            link: https://commission.europa.eu/about/departments-and-executive-agencies/digital-services_en
+            label: European Commission / DIGIT
+            imageUrl: logos/European_Commission.png
+          header: December 2005 - August 2008 (2 years, 9 months)
+          title: Java designer / developer
+          collapsible: true
+          collapsed: true
+          content: |
+            *European Commission / DIGIT*
+            
+            Various skills involved in this mission:
+            * JSP tag library development
+            * evangelist for a Spring-based application in a development team (+ bug fixing)
+            * AJAX, Dojo, DHTML, Web and Spring development
+            * architecture, design, development, tests (load / unit / integration) of a SOA JEE application 
+            aimed to deliver services on top of a documents repository system, through web services
+            * I wrote a console-based web service client application used to load test the SOA application; 
+            it was built around Spring for its easy XML beans configuration features. 
+            Successful and failing test scenarios were expressed as simple POJOs, making it easy to extend as new services were implemented.
+            * We also wrote an AOP layer to automatically and safely handle Documentum's sessions and transactions. 
+            This prevents session leaks and poor transactions management.
+    
+            **Technologies used**: Spring Framework, Dojo Toolkit, Apache Ant, JSP, Weblogic Server (10.0), JUnit 4, CVS, SVN, Documentum 5.3.4
+
+        - logo:
+            link: https://www.cisco.com/
+            label: Cisco Systems
+            imageUrl: logos/Cisco_logo-1000px.png
+          header: January 2004 - October 2005 (1 year, 10 months)
+          title: Software developer / coordinator
+          collapsible: true
+          collapsed: true
+          content: |
+            *Cisco Systems - Diegem*
+              
+            Coordination and synchronization of activities between the business owners and the offshore development team:
+            * Translation of business needs into technical requests
+            * Code quality validation
+            * Design and solutions studies
+            * Recommendations and technical advices to the development team
+            * etc.
+    
+            Development role:
+            * performance improvements
+            * bug fixing
+            * migration from Borland Enterprise Server (BES) to Websphere Application Server (WAS)
+            * migration of a Web application from a Tomcat 3 (JDK 1.3) to a Tomcat 4 (JDK 1.4) environment
+    
+            **Technologies used**: Struts 1, CVS, Eclipse IDE, Apache Ant, Java 1.3/1.4, Javascript, Jetspeed 1.4, Servlet/JSP, SQL, Jakarta Tomcat, Unix
+
+        - logo:
+            link: https://en.wikipedia.org/wiki/Fedict
+            label: Fedict
+            imageUrl: logos/logo-fedict.png
+          header: May 2002 - December 2003 (1 year, 8 months)
+          title: Application developer Java
+          collapsible: true
+          collapsed: true
+          content: |
+            *Fedict - Brussels*
+            
+            The *Universal Messaging Engine - Version 2* (UME2) system provided the backbone for the 
+            Belgian Government's information exchange both internally (between the federal departments)
+            and externally (between federal departments cities).
+            This information exchange mechanism was based on a core message bus, on which business-added
+            value services (publish and subscribe) were plugged in. The mechanism was implemented by State of the Art technology (J2EE).
+    
+            **Technologies used**: WebLogic Server (6 & 7), EJBs 2.1, Apache Ant, Java 1.3, JUnit 3
+
+        - logo:
+            link: https://commission.europa.eu/about/departments-and-executive-agencies/education-youth-sport-and-culture_en
+            label: European Commission / DG EAC / Education, Youth, Sport and Culture
+            imageUrl: logos/European_Commission.png
+          header: January 2002 - April 2002 (4 months)
+          title: Analyst-programmer Java
+          collapsible: true
+          collapsed: true
+          content: |
+            *European Commission / DG EAC / Education, Youth, Sport and Culture*
+    
+            Development of a JSP/Servlets prototype application for the European Commission (DG EAC) 
+            that later became <a href="https://en.wikipedia.org/wiki/Ploteus" target="_blank">PLOTEUS</a>.
+    
+            **Technologies used**: CVS, HTML, CSS, Java, Javascript, JSP/Servlets, Jakarta Tomcat, BEA WebLogic, XML
+
+        - logo:
+            link: https://anti-fraud.ec.europa.eu/policy/union-anti-fraud-programme-uafp/union-anti-fraud-programme-afis-component_en
+            label: European Anti-Fraud Office (OLAF)
+            imageUrl: logos/olaf.png
+          header: August 1997 - December 2001 (4 years, 5 months)
+          title: Analyst-programmer
+          collapsible: true
+          collapsed: true
+          content: |
+            *European Anti-Fraud Office (OLAF)*
+            
+            <a href="https://anti-fraud.ec.europa.eu/policy/union-anti-fraud-programme-uafp/union-anti-fraud-programme-afis-component_en" target="_blank">Anti-Fraud Information System</a>: 
+            system for the exchange of messages between the European Commission and the Member States Administrations (Taxation and Customs) for anti-fraud purposes.
+    
+            **Technologies used**: Visual Basic 4, 5 & 6, C (Win32 & Unix), COM/ActiveX, InstallShield, VSS, ODBC, SQL, BEA Tuxedo, Unix,
+
+    - logo:
+        link: https://www.pappers.fr/entreprise/riva-france-sa-552007510
+        label: Riva Systems
+        imageUrl: logos/riva_hugin_sweda.png
+      header: February 1997 - May 1997 (4 months)
+      title: Graduating intern
+      collapsible: true
+      collapsed: true
+      content: |
+        *Riva Systems - Brussels - part-time - on-site*
+        
+        I worked in this company during my high-school graduation.
+
+        The first objective was to implement bar code scanners in the client network (retail shops) so as to know the price of any article.
+        
+        I then had to integrate the payment by credit card (Visa, Eurocard Mastercard, American Express, Diner's Club) 
+        with the electronic payment methods which were already available.
+
+        **Technologies used**: C, MS-DOS, structured programming
+
+- title: Education
+  items:
+    - title: High school
+      header: 1994 - 1997
+      logo:
+        link: https://www.vinci.be/fr/formations/informatique-developpement-applications
+        label: Haute École Léonard de Vinci - Institut Paul Lambin, Brussels
+        imageUrl: logos/HELDV.jpeg
+      ruler: false
+      content: |
+        Graduat, computer science
+        
+        Grade: distinction
+        
+        Activities and societies: Students club member and organizer (CIPL)
+
+    - title: Secondary school
+      header: 1987 - 1994
+      logo:
+        link: https://www.indbe.be/
+        label: Institut Notre-Dame de Bonne-Espérance - Ecole Normale, Braine-le-Comte
+        imageUrl: logos/INDBE.png
+      ruler: false
+      content: |
+        Latin & mathematics
+
+    - title: Elementary school
+      header: 1981 - 1987
+      logo:
+        link: https://www.braine-le-comte.be/citoyennete/enseignement/ecole-communale-dhennuyeres
+        label: Ecole communale d'Hennuyères
+        imageUrl: logos/ECH.png
+      ruler: false
+      content: |
+        General education
+
+- title: Licenses & certifications
+  items:
+    - header: Issued August 2025 by Cefora
+      title: "IA au travail: maîtrisez les bases pour maximiser votre impact"
+      link: https://karibu.360learning.com/api/certification/6401380577233010
+      ruler: false
+    - header: Issued December 2023 by edX
+      title: "WAI0.1x: Introduction to Web Accessibility"
+      link: https://courses.edx.org/certificates/ccd5cbbd7dcc4d1b8afe773396a0fe9f
+      ruler: false

@@ -1,0 +1,13 @@
+firstName: Dimitri
+lastName: Hautot
+jobTitle: |
+  Silver-haired Java developer, Spring fan & a bit of architectural fairy dust ☕️ 🍃 🧚‍♂️
+picture: Dimitri-Hautot-1.jpeg
+city: Court-Saint-Etienne
+country: Belgium
+site: https://dimitri.hautot.be/
+bio: |
+  Specialized in the Java technologies, and a strong believer in the Spring framework, 
+  I like to design and implement the server side of a system: from service API down to persistency &
+  external services consumption. 
+  I also try to dedicate some times to learn new tools, libraries, runtimes. Next one will be Quarkus.
