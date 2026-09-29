@@ -12,10 +12,10 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
         <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
-        <quarkus.platform.version>3.31.2</quarkus.platform.version>
+        <quarkus.platform.version>3.35.1</quarkus.platform.version>
         <skipITs>true</skipITs>
         <surefire-plugin.version>3.5.4</surefire-plugin.version>
-        <roq.version>2.0.4</roq.version>
+        <roq.version>2.1.9</roq.version>
     </properties>
 
     <dependencyManagement>
@@ -43,8 +43,7 @@
         <dependency>
             <groupId>io.quarkiverse.roq</groupId>
             <artifactId>quarkus-roq-theme-resume</artifactId>
-<!--            <version>${roq.version}</version>-->
-            <version>999-SNAPSHOT</version>
+            <version>${roq.version}</version>
         </dependency>
 
         <!-- Test dependencies -->
