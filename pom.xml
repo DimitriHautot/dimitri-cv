@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>be.hautot</groupId>
-    <artifactId>dimitri-cv</artifactId>
+    <artifactId>dimitri</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
@@ -15,7 +15,8 @@
         <quarkus.platform.version>3.35.1</quarkus.platform.version>
         <skipITs>true</skipITs>
         <surefire-plugin.version>3.5.4</surefire-plugin.version>
-        <roq.version>2.1.9</roq.version>
+<!--        <roq.version>2.1.9</roq.version>-->
+        <roq.version>999-SNAPSHOT</roq.version>
     </properties>
 
     <dependencyManagement>
