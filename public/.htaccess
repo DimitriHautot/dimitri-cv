@@ -1,0 +1,19 @@
+# En-têtes de sécurité pour dimitri.hautot.be (fichier publié à la racine du site par Roq)
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains" "expr=%{HTTPS} == 'on'"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+    Header always set Cross-Origin-Opener-Policy "same-origin"
+    Header always set Cross-Origin-Resource-Policy "same-origin"
+    Header always set X-Frame-Options "DENY"
+    # 'unsafe-eval' : Alpine.js (thème resume de Roq) évalue ses directives x-data/x-show avec new Function().
+    # Le retirer imposerait le build CSP d'Alpine (@alpinejs/csp) et la réécriture des directives du thème.
+    Header always set Content-Security-Policy "default-src 'none'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} !^/\.well-known/
+    RewriteRule (^|/)\. - [F,L]
+</IfModule>
