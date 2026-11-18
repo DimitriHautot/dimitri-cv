@@ -15,6 +15,8 @@ Roq est en version `999-SNAPSHOT` : le fork de Dimitri, construit localement (`~
 - `content/` : pages (`index.html`, `404.html`)
 - `public/` : fichiers copiés tels quels à la racine du site (images, `.htaccess`)
 - `web/` : CSS propre au projet, intégré au bundle
+- `templates/layouts/default.html` : surcharge du layout `roq-resume/default` du thème, pour ajouter les données structurées JSON-LD (`Person`)
+- `src/main/resources/application.properties` : `site.url`, indispensable aux URL absolues (canonical, `og:url`, `og:image`, sitemap)
 
 ## Mozilla Observatory
 
@@ -26,7 +28,7 @@ Le thème resume utilise Alpine.js, qui évalue ses directives (`x-data`, `x-sho
 
 ### Règles
 
-- **Aucun JavaScript inline** : pas de `<script>` sans `src`, pas d'attribut `on…`, pas d'URL `javascript:` dans les templates ou le contenu. Les scripts passent par le bundle (`/static/bundle/`).
+- **Aucun JavaScript inline** : pas de `<script>` sans `src`, pas d'attribut `on…`, pas d'URL `javascript:` dans les templates ou le contenu. Les scripts passent par le bundle (`/static/bundle/`). Seule exception : le bloc de données `<script type="application/ld+json">` (schema.org) de `templates/layouts/default.html`, qui n'est pas exécuté et que la CSP ne bloque pas.
 - Ne pas ajouter de nouvelles expressions Alpine qui exigeraient d'autres assouplissements. Ne jamais ajouter `'unsafe-inline'` à `script-src`.
 - **Aucune ressource externe** : pas de CDN, Google Fonts (la police Inter est déjà embarquée dans le bundle), analytics ou widget tiers. Les logos et images vont dans `public/images/`. Les liens `<a href>` vers d'autres sites ne sont pas concernés.
 - Les styles inline sont tolérés (`style-src 'unsafe-inline'`, non pénalisé ; Alpine en a besoin pour `x-show`).

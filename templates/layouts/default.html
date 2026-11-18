@@ -1,0 +1,29 @@
+---
+layout: roq-base/default
+body-class: default
+---
+{! Overrides roq-resume/default to add schema.org structured data (JSON-LD). !}
+{#head}
+{#if site.data.containsKey("analytics")}
+{#ga4 tag=site.data.getJsonObject('analytics').getString("ga4", "") /}
+{/if}
+<base href="{page.url.relative}">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{cdi:profile.firstName} {cdi:profile.lastName}",
+  "jobTitle": "Java & Spring developer",
+  "url": "{site.url.absolute}",
+  "image": "{site.image(cdi:profile.picture).absolute}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{cdi:profile.city}",
+    "addressCountry": "BE"
+  },
+  "sameAs": [{#for item in cdi:social.items}"{item.url}"{#if item_hasNext}, {/if}{/for}]
+}
+</script>
+{/head}
+
+{#insert /}
