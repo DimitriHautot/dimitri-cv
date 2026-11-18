@@ -16,6 +16,8 @@
         * I am building a small homelab with self-hosted open source services, such as [Immich](https://immich.app/) and [Kaneo](https://kaneo.app/), all hidden behind a [TailScale](https://tailscale.com/) VPN.
         * When I see a need, I try to contribute to open source projects:
           * Quarkus-Roq (the engine building this web page): "[Resume theme visual improvements](https://github.com/quarkiverse/quarkus-roq/pull/764)"
+          * Quarkus-Roq: "[fix(theme-resume): let long URLs wrap to avoid horizontal scroll on phones](https://github.com/quarkiverse/quarkus-roq/pull/1387)"
+          * Quarkus-Roq: "[feat(theme-resume): copy-link anchors on resume sections and items](https://github.com/quarkiverse/quarkus-roq/pull/1388)"
           * Kaneo: "[Use a single application service instead of two (replicate Kaneo configuration)](https://github.com/tailscale-dev/ScaleTail/pull/343)"
           * Activiti BPM: "[Proposal for having distinct Java package names in different modules](https://github.com/Activiti/Activiti/pull/134)"
         
